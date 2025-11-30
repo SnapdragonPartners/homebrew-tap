@@ -3,7 +3,7 @@ cask "maestro" do
   name "maestro"
   desc "Multi-agent AI coding system orchestrator"
   homepage "https://github.com/SnapdragonPartners/maestro"
-  version "0.4.3"
+  version "0.4.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "maestro" do
   on_macos do
     on_intel do
       url "https://github.com/SnapdragonPartners/maestro/releases/download/v#{version}/maestro_#{version}_darwin_amd64.zip"
-      sha256 "1428309a48aa6647481b1600159d4ea9f5bfa9f5e40101d272d1239cdd425148"
+      sha256 "3292b7b6b597ec232bc2872e740b212dda7f472ffb91a033998093f0951be7bd"
     end
     on_arm do
       url "https://github.com/SnapdragonPartners/maestro/releases/download/v#{version}/maestro_#{version}_darwin_arm64.zip"
-      sha256 "e01fc048b093ca51c148a18c2b908d77c5ca7939b3b65c6398a417266decb53e"
+      sha256 "281b2f9437a5494b72a5f64c797dfd6d54ecaabd524e73b391a75e5597ea9725"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/SnapdragonPartners/maestro/releases/download/v#{version}/maestro_#{version}_linux_amd64.tar.gz"
-      sha256 "1b4ec1dc4ed2399a3c4d238f1c17b44a5f8ae5728e480aac81cdb3704c5611d8"
+      sha256 "823434825ecd585b155c3abda96daed742b45db468003844bca14809bd82b44c"
     end
     on_arm do
       url "https://github.com/SnapdragonPartners/maestro/releases/download/v#{version}/maestro_#{version}_linux_arm64.tar.gz"
-      sha256 "f55471d6c3b471ea89a8c90ef7b6e71ac93c76306d0cc2e01da4d9ec28f56591"
+      sha256 "2625affbbbca006909f44bcb9d0bbe535a9019a532788b84e63084817b904b46"
     end
   end
 
